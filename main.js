@@ -11,8 +11,8 @@ const config = {
     target: 'http://google.com',
     proxyFile: './proxy_list.txt',
     userAgentFile: './user_agent.json',
-    maxRetries: 3,
-    concurrentRequests: 5,
+    maxRetries: 1,
+    concurrentRequests: 6,
     duration: 30000, // Duration in milliseconds (30 seconds)
 };
 
